@@ -1,6 +1,12 @@
 body{
     font-family:  Arial, sans-serif;
 }
+header{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width:100% ;
+}
 .header_1 img{
     width: 70px;
 }
@@ -15,14 +21,46 @@ body{
 color: white;
 background-color: #363636;
 border-radius: 50px;
+/* rounded-pill da incollare nella classe nel html */
 
 }
 .search_icon{
     font-size: 30px;
 }
 .hero{
-    /* background-color: pink;  */
-    background-image: url("//img/jumbo-bg.png");
+    margin-top: 7rem;
+    color: white;
+    background-image: url("../img/jumbo-bg.png");
     background-size: cover;
+    background-position: center;
+
     /* height: 500px; */
+}
+/* SEZIONE HERO  */
+.logo_hero{
+    width: 20rem;
+    padding-top: 10rem;
+    
+}
+.img_hero{
+     width: 100%;
+    border-radius: 20px;
+    height: 100%;
+    
+}
+
+
+/* SEZIONE PS5  */
+.console_ps5 h5{
+    color: #0072ce;
+    margin-top: 8rem;
+}
+.console_ps5 p{
+    color: #727272;
+    font-size: 1.4rem;
+    margin: 2rem 0;
+
+}
+.img_ps5{
+width: 100%;
 }
