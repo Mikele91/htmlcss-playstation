@@ -20,3 +20,9 @@ border-radius: 50px;
 .search_icon{
     font-size: 30px;
 }
+.hero{
+    /* background-color: pink;  */
+    background-image: url("//img/jumbo-bg.png");
+    background-size: cover;
+    height: 500px;
+}
