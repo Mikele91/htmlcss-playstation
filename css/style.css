@@ -1,3 +1,22 @@
 body{
     font-family:  Arial, sans-serif;
 }
+.header_1 img{
+    width: 70px;
+}
+.navbar-brand  img{
+    width: 50px;
+    
+}
+/* color */
+
+/* button */
+.button_wait{
+color: white;
+background-color: #363636;
+border-radius: 50px;
+
+}
+.search_icon{
+    font-size: 30px;
+}
