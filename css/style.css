@@ -36,6 +36,20 @@ border-radius: 50px;
 /* rounded-pill da incollare nella classe nel html */
 
 }
+/* type text */
+.console_ps5 h5{
+    color: #0072ce;
+    margin-top: 8rem;
+}
+.console_ps5 p, .console_ps4 p {
+    color: #727272;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+
+}
+
+/*/ type text */
+
 .search_icon{
     font-size: 30px;
 }
@@ -46,24 +60,25 @@ border-radius: 50px;
     background-size: cover;
     background-position: top center;
 
-    /* height: 500px; */
+    
 }
 /* SEZIONE HERO  */
-.logo_hero{
+.logo_hero {
     width: 20rem;
     padding-top: 10rem;
     
 }
-.img_hero{
+.img_hero, .img_card {
     width: 100%; 
     border-radius: 20px;
-    height: 100%;
+    
     
 }
+/* /SEZIONE HERO  */
 
 
 /* SEZIONE PS5  */
-.console_ps5 h5{
+/* .console_ps5 h5{
     color: #0072ce;
     margin-top: 8rem;
 }
@@ -72,7 +87,7 @@ border-radius: 50px;
     font-size: 1.4rem;
     margin: 2rem 0;
 
-}
+} */
 .img_ps5{
 width: 100%;
 }
@@ -80,8 +95,38 @@ width: 100%;
     width:100%;
 }
 .underline_blue{
+    padding-bottom: 1rem;
 border-bottom: 2px solid transparent;
 }
 .underline_blue:hover {
     border-bottom: 2px solid #0072ce;
     }
+
+/*/ SEZIONE PS5  */
+
+/* SEZIONE GAME-2 */
+.game_2{
+    margin-top: 7rem;
+    color: white;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: top center;
+
+   
+}
+.logo_game_2{
+    padding: 5rem 0 2rem 0
+}
+.logo_game_2{
+    width: 50%;
+}
+/* /SEZIONE GAME-2 */
+
+
+
+
+
+.news_releases{
+    color: white;
+    background-color:#1f1f1f ;
+}
