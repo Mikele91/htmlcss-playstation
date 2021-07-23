@@ -8,10 +8,22 @@ header{
     width:100% ;
 }
 .header_1 img{
-    width: 70px;
+    width: 5rem; 
 }
+
 .navbar-brand  img{
     width: 50px;
+    
+}
+.nav_header .navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+.nav_header .dropdown-toggle::after{
+    content: url("../img/chevron-down-solid.svg");
+    border:none;
+    display:inline-block;
+    width: 0.8rem;
+    vertical-align: middle;
     
 }
 /* color */
@@ -32,7 +44,7 @@ border-radius: 50px;
     color: white;
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
-    background-position: center;
+    background-position: top center;
 
     /* height: 500px; */
 }
@@ -43,7 +55,7 @@ border-radius: 50px;
     
 }
 .img_hero{
-     width: 100%;
+    width: 100%; 
     border-radius: 20px;
     height: 100%;
     
@@ -64,3 +76,12 @@ border-radius: 50px;
 .img_ps5{
 width: 100%;
 }
+.row.row-cols-3.row-cols-md-5 img{
+    width:100%;
+}
+.underline_blue{
+border-bottom: 2px solid transparent;
+}
+.underline_blue:hover {
+    border-bottom: 2px solid #0072ce;
+    }
