@@ -29,12 +29,37 @@ header{
 /* color */
 
 /* button */
+/* prima fare il colore  */
+/* background color  */
+/* border color uguale */
+
+/* effetto hover  */
+
+/* border: 2px solid colore  */
+/* box-shadow: inset 0px 0px 0px 2px colore  */
 .button_wait{
 color: white;
+
 background-color: #363636;
 border-radius: 50px;
+border: #363636;
 /* rounded-pill da incollare nella classe nel html */
 
+}
+
+.btn-primary:hover,  .button_wait:hover{
+   
+    box-shadow: inset 0px 0px 0px 2px white;
+} 
+.btn-danger:hover{
+    box-shadow: inset 0px 0px 0px 2px black;
+}
+.btn_explore_now:hover{
+    box-shadow: inset 0px 0px 0px 2px #404040;
+}
+.btn_explore_ps:hover{
+   box-shadow: 0px 0px 2px 2px #d9dadc;
+    
 }
 .btn_explore_ps{
     background-color: #d9dadc;
@@ -72,10 +97,10 @@ border-radius: 50px;
     color: white;
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
-    background-position: top center;
-
-    
+    background-position: top center;  
 }
+
+
 /* SEZIONE HERO  */
 .logo_hero {
     width: 20rem;
@@ -84,13 +109,19 @@ border-radius: 50px;
 }
 .img_hero, .img_card {
     width: 100%; 
-    border-radius: 20px;
- 
-    
+    border-radius: 20px; 
 }
 
 .img_hero{
-    height: 100%;
+     height: 5rem;
+}
+.hero_footer .col-6{
+    position:relative;
+    top:0;
+    transition:0.5;
+}
+.hero_footer .col-6:hover {
+    top: -20px;
 }
 /* /SEZIONE HERO  */
 
@@ -107,15 +138,17 @@ border-radius: 50px;
 
 } */
 
-.row.row-cols-3.row-cols-md-5 img{
+ .row.row-cols-3.row-cols-md-5 img{
     width:100%;
 }
 .underline_blue{
     padding-bottom: 1rem;
 border-bottom: 2px solid transparent;
+opacity: 0.5 ;
 }
 .underline_blue:hover {
     border-bottom: 2px solid #0072ce;
+    opacity: 1;
     }
 
 /*/ SEZIONE PS5  */
