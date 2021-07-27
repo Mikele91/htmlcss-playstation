@@ -28,7 +28,9 @@ header{
  .drop_items li {
     display: inline-block;
     
+    
 }
+
 .drop_items{
  width: 100vw;
  
@@ -46,6 +48,8 @@ header{
 
 /* border: 2px solid colore  */
 /* box-shadow: inset 0px 0px 0px 2px colore  */
+
+
 .button_wait{
 color: white;
 padding: 10px;
@@ -117,12 +121,12 @@ border: #363636;
     
 }
 .img_hero, .img_card {
-    width: 100%; 
+    width: 9rem;
     border-radius: 20px; 
 }
 
 .img_hero{
-     height: 5rem;
+     height: 6rem;
 }
 .hero_footer .col-6{
     position:relative;
@@ -130,7 +134,7 @@ border: #363636;
     transition:0.5;
 }
 .hero_footer .col-6:hover {
-    cursor: pointerp;
+    cursor: pointer;
     top: -20px;
 }
 
@@ -138,16 +142,6 @@ border: #363636;
 
 
 /* SEZIONE PS5  */
-/* .console_ps5 h5{
-    color: #0072ce;
-    margin-top: 8rem;
-}
-.console_ps5 p{
-    color: #727272;
-    font-size: 1.4rem;
-    margin: 2rem 0;
-
-} */
 
  .row.row-cols-3.row-cols-md-5 img{
     width:100%;
