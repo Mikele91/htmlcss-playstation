@@ -8,7 +8,8 @@ header{
     width:100% ;
 }
 .header_1 img{
-    width: 5rem; 
+    width: 6rem; 
+    
 }
 
 .navbar-brand  img{
@@ -118,19 +119,35 @@ border: #363636;
 .img_hero, .img_card {
     width: 9rem;
     border-radius: 20px; 
+    
 }
 
 .img_hero{
      height: 6rem;
+     border: 3px solid transparent;
+     border-radius: 20px;
+     padding: 2px;
+     
+}
+.img_hero:hover{
+    border: 3px solid #2d64e6;
+
 }
 .hero_footer .col-6{
     position:relative;
     top:0;
-    transition:0.5;
+   
+   
+}
+.transition_card{
+    transition-duration: 0.5s;
+    
 }
 .hero_footer .col-6:hover {
     cursor: pointer;
     top: -20px;
+   
+    
 }
 
 /* /SEZIONE HERO  */
