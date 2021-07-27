@@ -23,8 +23,17 @@ header{
     border:none;
     display:inline-block;
     width: 0.8rem;
-    vertical-align: middle;
+    vertical-align: middle;  
+}
+ .drop_items li {
+    display: inline-block;
     
+}
+.drop_items{
+ width: 100vw;
+ 
+ 
+
 }
 /* color */
 
@@ -39,7 +48,7 @@ header{
 /* box-shadow: inset 0px 0px 0px 2px colore  */
 .button_wait{
 color: white;
-
+padding: 10px;
 background-color: #363636;
 border-radius: 50px;
 border: #363636;
@@ -121,8 +130,10 @@ border: #363636;
     transition:0.5;
 }
 .hero_footer .col-6:hover {
+    cursor: pointerp;
     top: -20px;
 }
+
 /* /SEZIONE HERO  */
 
 
