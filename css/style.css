@@ -26,16 +26,11 @@ header{
     vertical-align: middle;  
 }
  .drop_items li {
-    display: inline-block;
-    
-    
+     display: inline-block;   
 }
 
 .drop_items{
  width: 100vw;
- 
- 
-
 }
 /* color */
 
